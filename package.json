@@ -8,6 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
+    "prestorybook": "rnstl",
     "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-dom": "16.13.1",
+    "react-native-storybook-loader": "^2.0.2",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
