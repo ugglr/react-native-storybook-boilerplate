@@ -9,13 +9,15 @@ import Button from './Button';
 import CenterView from './CenterView';
 import Welcome from './Welcome';
 
-storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
+storiesOf('Welcome', module).add('to Storybook', () => (
+  <Welcome showApp={linkTo('Button')} />
+));
 
 storiesOf('Button', module)
-  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .addDecorator((getStory) => <CenterView>{getStory()}</CenterView>)
   .add('with text', () => (
     <Button onPress={action('clicked-text')}>
-      <Text>Hello Button</Text>
+      <Text>Hello Butto0o0o0on</Text>
     </Button>
   ))
   .add('with some emoji', () => (
