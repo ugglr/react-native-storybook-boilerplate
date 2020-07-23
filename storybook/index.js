@@ -2,11 +2,13 @@ import { AppRegistry } from 'react-native';
 import { getStorybookUI, configure } from '@storybook/react-native';
 import { name as appName } from '../app.json';
 
+import { loadStories } from './storyLoader';
+
 import './rn-addons';
 
 // import stories
 configure(() => {
-  require('./stories');
+  loadStories();
 }, module);
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
