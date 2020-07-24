@@ -13,7 +13,7 @@ Goals of this repo:
 | setup @storybook/react-native-server for react native UI development | ✅ |
 | setup react from scratch | ✅ |
 | setup @storybook/react to run as a seperate storybook | ✅ |
-| Build serveable storybook site with react-native-web display of the react-native components. |  |
+| Build serveable storybook site with react-native-web display of the react-native components. | ✅ |
 
 ## Clone Command
 ```
@@ -43,5 +43,7 @@ yarn run storybook-web
 - Build serveable Storybook static site (To-Do)
 ```
 yarn run build:storybook-web
+
+--> ./storybook-static
 ```
 
