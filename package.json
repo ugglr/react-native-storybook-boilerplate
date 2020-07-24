@@ -11,7 +11,10 @@
     "prestorybook": "rnstl",
     "storybook": "start-storybook -p 7007",
     "build-react": "webpack --mode production",
-    "start-react": "webpack-dev-server --config ./webpack.config.js --mode development"
+    "start-react": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "start-storybook-web": "./node_modules/@storybook/react/bin/index.js",
+    "build-storybook-web": "./node_modules/@storybook/react/bin/build.js",
+    "storybook-web": "yarn run start-storybook-web"
   },
   "config": {
     "react-native-storybook-loader": {
