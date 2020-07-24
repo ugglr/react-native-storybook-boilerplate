@@ -5,6 +5,13 @@ I want to transpile the react-native component through the react-native-web proj
 
 It's the ultimate library development setup meant for kickstarting ui library development for react-native. 
 
+In a nutshell there's two installations:
+1. **React Native + Storybook/React-Native**
+It was installed following the normal steps of
+  a) doing a fresh `npx react-native init`
+  b) running `` for a fresh @storybook/react-native and @storybook/react-native-server installation
+2. **React + Storybook/React**
+
 Goals of this repo:
 
 | ToDo| Status |
