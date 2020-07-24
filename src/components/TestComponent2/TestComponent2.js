@@ -1,12 +1,12 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React from 'react'
+import { View, Text } from 'react-native'
 
-function TestComponent() {
+function TestComponent2() {
   return (
     <View>
-      <Text>Test Component 2</Text>
+      <Text>TestComponent2</Text>
     </View>
-  );
+  )
 }
 
-export default TestComponent;
+export default TestComponent2
