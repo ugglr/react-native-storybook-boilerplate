@@ -34,7 +34,6 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
-yarn.lock
 
 # BUCK
 buck-out/
@@ -61,3 +60,4 @@ buck-out/
 
 # Storybook
 /storybook/storyLoader.js
+storybook-static
