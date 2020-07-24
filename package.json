@@ -14,7 +14,8 @@
     "start-react": "webpack-dev-server --config ./webpack.config.js --mode development",
     "start-storybook-web": "./node_modules/@storybook/react/bin/index.js",
     "build-storybook-web": "./node_modules/@storybook/react/bin/build.js",
-    "storybook-web": "yarn run start-storybook-web"
+    "storybook-web": "yarn run start-storybook-web",
+    "build:storybook-web": "yarn run build-storybook-web"
   },
   "config": {
     "react-native-storybook-loader": {
@@ -28,6 +29,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.1",
+    "react-native-web": "^0.13.4",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
@@ -39,6 +41,7 @@
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@storybook/react-native": "^5.3.19",
     "@storybook/react-native-server": "^5.3.19",
     "babel-eslint": "^10.1.0",

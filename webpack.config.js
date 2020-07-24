@@ -13,6 +13,13 @@ module.exports = {
     filename: 'bundle.js',
     path: path.join(__dirname, '/build'),
   },
+  resolve: {
+    alias: {
+      'react-native$': 'react-native-web',
+      '@storybook/react-native': '@storybook/react',
+      'styled-components/native': 'styled-components',
+    },
+  },
   module: {
     rules: [
       {
