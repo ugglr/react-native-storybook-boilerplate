@@ -20,9 +20,9 @@ This installation is less obvious because we have to setup react from scratch, c
 It was roughtly done like this:
 
 - Installing `react`, `react-dom`, `babel` & `webpack` dependencies
-- Configuring `webpack` to alias `react-native` with `react-native-web`, and `styled-components/native` should resolve to `styled-components`. See the full webpack config here: (webpack.config.js)[https://github.com/ugglr/react-native-storybook-boilerplate/blob/master/webpack.config.js] also: babel config here: (babel.config.js)[https://github.com/ugglr/react-native-storybook-boilerplate/blob/master/babel.config.js]
+- Configuring `webpack` to alias `react-native` with `react-native-web`, and `styled-components/native` should resolve to `styled-components`. See the full webpack config here: [webpack.config.js](https://github.com/ugglr/react-native-storybook-boilerplate/blob/master/webpack.config.js) also: babel config here: [babel.config.js](https://github.com/ugglr/react-native-storybook-boilerplate/blob/master/babel.config.js)
 - Installing Storybook according to the manual guide in the docs [React Storybook Manual Installation Steps](https://storybook.js.org/docs/guides/guide-react/)
-- Inside of `./.storybook/main.js` configure custom webpack for Storybook, see docs here: (Storybook custom webpack docs)[https://storybook.js.org/docs/configurations/custom-webpack-config/], from my `webpack.config.js` I grab the alias configuration and plug it into Storybook.
+- Inside of `./.storybook/main.js` configure custom webpack for Storybook, see docs here: [Storybook custom webpack docs](https://storybook.js.org/docs/configurations/custom-webpack-config/), from my `webpack.config.js` I grab the alias configuration and plug it into Storybook.
 - Since Storybook does not support the new syntax of writing stories for React Native I needed to add one more alias where `@storybook/react-native` resolves to `@storybook/react`
 
 Goals of this repo:
